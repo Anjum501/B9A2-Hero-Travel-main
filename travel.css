@@ -1,0 +1,202 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: white;
+    padding: 50px 240px;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2rem;
+    margin-left: 5px;
+    width: 300px;
+    
+}
+nav > ul{
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    display: flex;
+}
+.nav-img{
+
+}
+.icons{
+    display: none;
+    width: 400px;
+}
+main{
+    width: 100%;
+    height: 40rem;
+    background-color: aqua;
+    display: flex;
+}
+.about-travel{
+    width: 100%;
+    height: 100%;
+    background:url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    margin:80px 350px;
+   
+}
+.travel-ditails{
+
+}
+.why{
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 20px;
+}
+.text{
+    color: #fff;
+    margin-left: 290px;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 1px black;
+}
+.text-2{
+    color: #fff;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 380px;
+    margin-bottom: 60px;
+}
+.travel-option{
+    
+    display: inline-flex;
+    padding: 16px;
+    align-items:center;
+    justify-content: center;
+    gap: 24px;
+    margin-left: 230px;
+    background-color:rgba(255, 255, 255, 0.30);
+    height: 3rem;
+    width: 50%;
+    
+}
+.offer{
+    width: 140px;
+    height: 30px;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px;
+}
+.choose,.btn ,.offer:focus{
+    outline: none;
+}
+.choose{
+    width: 140px;
+    height: 48px;
+    border: 0;
+    border-radius: 8px;
+}
+.btn{
+    width: 150px;
+    height: 48px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #FF5400;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+/*responsive */
+@media screen and (max-width:576px) {
+    header{
+        padding: 5px;
+    }
+    .nav-img{
+        margin-top: 20px;
+        margin-left: 10px;
+
+    }
+    .nav-title{
+        font-size: 20px;
+        margin-top: 30px;
+        width: 200px;
+    }
+    a{
+        display: none;
+       
+    }
+    .icons{
+        display:flex;
+        margin-top: 20px;
+        
+    }
+    .about-travel{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .why{
+        font-size: 2rem;
+    }
+    .text{
+        font-size: 30px;
+        margin: 0;
+        margin: 20px;
+    }
+    .text-2{
+        font-size: 27px;
+        margin: 20px;
+        margin-bottom: 10px;
+
+    }
+    .travel-option{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 60%;
+        margin-top: 30px;
+        height: 290px;
+        margin-left: 90px;
+    }
+    .offer{
+        width: 40%;
+        
+  
+    }
+    
+}
+
+
+
+
+   
+   
+    
+
+
+
+
+
+    
+
+    
+  
+
