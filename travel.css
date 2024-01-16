@@ -164,8 +164,208 @@ main{
     margin-left: 360px;
     margin-top: 20px;
 }
+.destination{
+    width: 100%;
+    height: 1200px;
+}
+.des-ditails{
+    width: 100%;
+    height:1100px ;
+   justify-content: center;
+   align-items: center;
+    
+   
+}
+.trip{
+    
+    width: 100%;
+    height: 150px;
+}
+.go{
+    margin-left: 620px;
+    font-size: 3rem;
+}
+.bye{
+    margin-left: 640px;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.des-pic{
+    margin-left: 360px;
+    padding: 10px;
+}
+.sri{
+    margin-right: 10px;
+}
+.kash{
+    margin-left: 15px;
+}
+.mal{
+    margin-right: 10px;
+    position: relative;}
 
+.sundor{
+    margin-right: 10px;
+}
+.service-offer{
+    width: 100%;
+    height: 820px;
+    
+}
+.offer-catagory{
+    width: 100%;
+    height: 850px;
+   
+   
+}
+.offer-text{
+    width: 100%;
+    height: 150px;
+    
+}
+.offer-head{
+    margin-left: 700px;
+    font-size: 3rem;
+}
+.offer-head-2{
+    margin-left: 610px;
+    margin-top: 20px;
+}
+.offer-box{
+    width: 100%;
+    height: 330px;
+   
+    display: flex;
+    justify-content: center;
+}
+.box-1{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-right: 20px;
+}
+.box-2{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
 
+}
+.home{
+    width: 50px;
+    padding: 40px 40px;
+}
+.home-text{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.home-head{
+    margin-left: 40px;
+    width: 350px;
+}
+.box-3{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+   margin-left: 650px;
+
+}
+.deals{
+    width: 100%;
+    height: 1900px;
+    
+}
+.deal-text{
+    width: 100%;
+    height: 120px;
+  
+}
+.deal-head{
+    font-size: 3rem;
+    margin-left: 700px;
+}
+.deal-para{
+    font-size: 1.2rem;
+    margin-left: 520px;
+}
+.mal-book{
+    width: 100%;
+    height: 2000px;
+}
+.malasia{
+    background: url(Images/Group\ 39.png);
+    width: 70%;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin-left: 300px;
+    display: flex;
+}
+.mal-box{
+    width: 579px;
+    height: 389px;   
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 50px 60px 60px 520px;
+}
+.icon-infos{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+.days-time{
+    margin-left: 20px;
+}
+.guide{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.t-guide{
+    width: 320px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.doller{
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #FF5400;
+    font-size: 1.3rem;
+}
+
+.btn-3{ width: 150px;
+        height: 48px;
+        border: 0;
+         border-radius: 8px;
+       font-size: 1rem;
+       background-color: #FF5400;
+       font-family: sans-serif;
+       color: #fff;
+       margin-left: 40px;
+       margin-top: 30px;
+    
+    }
+
+.mal-box-1{
+    width: 579px;
+    height: 389px;   
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 50px 40px;
+
+}
 
 
 /*responsive */
@@ -258,6 +458,128 @@ main{
             width: 92%;
             padding: 20px;
         }
+        .destination{
+            margin-top: 400px;
+        }
+        .des-ditails{
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+
+        }
+        .des-pic{
+            margin-left: 20px;
+        }
+        .go{
+            margin-left: 25px;
+            font-size: 2rem;
+        }
+        .bye{
+            margin-left: 25px;
+            font-size: 1.6rem;
+        }
+        .mal{
+            width: 100%;
+            
+        }
+        .indo{
+            width: 100%;
+            margin: 0;
+        }
+        .sri{
+            margin-left: 30px;
+        }
+        .uk{
+            width: 100%;
+        }
+        .kash{
+            width: 90%;
+            margin-left: 20px;
+        }
+        .sundor{
+            width: 100%;
+        }
+        .bd{
+            width: 100%;
+        }
+        .service-offer{
+            margin-top: 1100px;
+        }
+        .offer-head{
+            margin-left: 70px;
+            font-size: 2rem;
+        }
+        .offer-box{
+            flex-direction: column;
+            width: 100%;
+            height: 75%;
+        }
+        .offer-head-2{
+            margin-left: 20px;
+           
+        }
+        .box-1 , .box-2{
+            width: 90%;
+            margin-left: 30px;
+            margin-top: 20px;
+          
+        }
+        .offer-catagory{
+            width: 100%;
+        }
+        .offer-text{
+            width: 100%;
+            height: 100px;
+        }
+        .box-3{
+            width: 90%;
+            margin-left: 30px;
+            
+        }
+        .home{
+           padding: 20px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+        .home-text{
+            
+            
+        }
+        .deals{
+            margin-top: 230px;
+        }
+        .deal-text{
+            margin: 0;
+            width: 100%;
+            height: 120px;
+        }
+        .deal-head{
+            margin: 20px;
+            font-size: 2rem;
+        }
+        .deal-para{
+            margin: 20px;
+            font-size: 12px;
+        }
+        .malasia{
+            margin: 0;
+            width: 95%;
+            border-top-right-radius:12px ;
+            border-bottom-right-radius:12px ;
+            margin-left: 10px;
+        }
+        .mal-box{
+            margin: 50px 20px;
+            width: 100%;
+
+        }
+        .mal-box-1{
+            margin: 50px 20px;
+        }
+
+        
+        
+
     }
     
 
